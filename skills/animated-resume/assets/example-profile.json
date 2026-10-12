@@ -1,0 +1,150 @@
+{
+ "langs": ["en", "de"],
+ "name": { "first": "Sam", "last": "Carter" },
+ "handle": "sam.carter",
+ "page_title": "Sam Carter · Level Up",
+ "eyebrow": { "en": "Example profile · fictional person", "de": "Beispielprofil · fiktive Person" },
+ "title": "Full-Stack Engineer",
+ "rotating": {
+  "en": ["React & Next.js", "Node.js", "Design systems", "Cloud & DevOps"],
+  "de": ["React & Next.js", "Node.js", "Design-Systeme", "Cloud & DevOps"]
+ },
+ "headline_tail": { "en": "Product-minded", "de": "Produktorientiert" },
+ "location": "Berlin, Germany",
+ "stack_line": "React · Next.js · Node.js · TypeScript · AWS",
+ "lede": {
+  "en": "7 years building web products, from a two-person startup to a platform used by 400,000 people. I like turning messy requirements into fast, accessible interfaces and calm, well-tested backends.",
+  "de": "7 Jahre Erfahrung mit Webprodukten, vom Zwei-Personen-Startup bis zur Plattform mit 400.000 Nutzer:innen. Ich mache aus unklaren Anforderungen schnelle, barrierefreie Oberflächen und ruhige, gut getestete Backends."
+ },
+ "xp": { "label": "LV 5 · Full-Stack Engineer", "right": { "en": "7 yrs XP", "de": "7 Jahre XP" }, "start": "2019", "now": { "en": "now: platform & DX", "de": "jetzt: Plattform & DX" }, "fill": 80 },
+ "bubbles": {
+  "en": ["Hi, I'm Sam! 👋 (I'm an example.)", "My last platform served 400k users.", "I cut page load time by 45%.", "I run a design system with 60 components.", "Ask me about accessibility!"],
+  "de": ["Hallo, ich bin Sam! 👋 (Ich bin ein Beispiel.)", "Meine letzte Plattform hatte 400.000 Nutzer:innen.", "Ich habe die Ladezeit um 45 % gesenkt.", "Ich betreue ein Design-System mit 60 Komponenten.", "Frag mich nach Barrierefreiheit!"]
+ },
+ "theme": { "preset": "ocean-dark" },
+ "avatar": {
+  "hairstyle": "short",
+  "skin": "#C68863", "skin_shadow": "#A86E4C",
+  "hair": "#2A1E17", "hair_highlight": "#4A372C",
+  "shirt": "#1E5A8A", "shirt_shadow": "#143E60",
+  "lips": "#B5535F", "eyes": "#3E2A1E",
+  "glasses": true, "beard": false, "earrings": false,
+  "glyphs": ["</>", "{ }", "UI", "API"]
+ },
+ "sections": {
+  "contact": [ { "en": "Ready for the next level", "de": "Bereit fürs nächste Level" }, { "en": "This could be your page.", "de": "Das könnte deine Seite sein." } ]
+ },
+ "achievements": [
+  { "value": "7+", "label": { "en": "Years", "de": "Jahre" }, "text": { "en": "building for the web", "de": "Webentwicklung" } },
+  { "value": "400k", "label": { "en": "Users", "de": "Nutzer:innen" }, "text": { "en": "on the platform I helped scale", "de": "auf der Plattform, die ich mit skaliert habe" } },
+  { "value": "-45%", "label": { "en": "Load time", "de": "Ladezeit" }, "text": { "en": "after the performance rewrite", "de": "nach dem Performance-Umbau" } },
+  { "value": "60", "label": { "en": "Components", "de": "Komponenten" }, "text": { "en": "in the design system I lead", "de": "im Design-System, das ich leite" } }
+ ],
+ "roles": [
+  {
+   "when": "2019 – 2020", "company": "Pixel & Co.", "place": "Hamburg",
+   "title": { "en": "Junior Frontend Developer", "de": "Junior Frontend-Entwickler:in" },
+   "unlock": { "en": "Frontend fundamentals", "de": "Frontend-Grundlagen" },
+   "bullets": {
+    "en": ["Built marketing sites and landing pages with HTML, CSS and JavaScript", "Learned code reviews, Git workflows and accessibility basics"],
+    "de": ["Marketing-Websites und Landingpages mit HTML, CSS und JavaScript gebaut", "Code Reviews, Git-Workflows und Grundlagen der Barrierefreiheit gelernt"]
+   }
+  },
+  {
+   "when": "2020 – 2022", "company": "Tiny Startup GmbH", "place": "Berlin",
+   "title": { "en": "Frontend Developer", "de": "Frontend-Entwickler:in" },
+   "unlock": { "en": "React & product thinking", "de": "React & Produktdenken" },
+   "bullets": {
+    "en": ["First engineering hire; shipped the React web app from zero to launch", "Worked directly with customers to shape the roadmap"],
+    "de": ["Erste Engineering-Einstellung; React-Web-App von null bis zum Launch gebaut", "Direkt mit Kund:innen an der Roadmap gearbeitet"]
+   },
+   "metrics": { "en": ["0 → launch", "2-person team"], "de": ["0 → Launch", "2-Personen-Team"] }
+  },
+  {
+   "when": "2022 – 2023", "company": "Tiny Startup GmbH", "place": "Berlin",
+   "title": { "en": "Full-Stack Developer", "de": "Full-Stack-Entwickler:in" },
+   "unlock": { "en": "Backend: Node.js & PostgreSQL", "de": "Backend: Node.js & PostgreSQL" },
+   "bullets": {
+    "en": ["Built the REST API with Node.js, Express and PostgreSQL", "Set up CI/CD with GitHub Actions and Docker"],
+    "de": ["REST-API mit Node.js, Express und PostgreSQL gebaut", "CI/CD mit GitHub Actions und Docker eingerichtet"]
+   }
+  },
+  {
+   "when": "2023 – 2025", "company": "Northwind Platform", "place": "Berlin",
+   "title": { "en": "Software Engineer", "de": "Software Engineer" },
+   "unlock": { "en": "Scale: 400k-user platform", "de": "Skalierung: Plattform mit 400.000 Nutzer:innen" },
+   "bullets": {
+    "en": ["Migrated the web app to Next.js and cut page load time by 45%", "Owned the checkout flow used by 400,000 people", "Introduced end-to-end tests with Playwright"],
+    "de": ["Web-App auf Next.js migriert und Ladezeit um 45 % gesenkt", "Verantwortlich für den Checkout mit 400.000 Nutzer:innen", "End-to-End-Tests mit Playwright eingeführt"]
+   },
+   "metrics": { "en": ["400k users", "-45% load time"], "de": ["400.000 Nutzer:innen", "-45 % Ladezeit"] }
+  },
+  {
+   "when": { "en": "2025 – today", "de": "2025 – heute" }, "company": "Northwind Platform", "place": "Berlin",
+   "title": { "en": "Senior Full-Stack Engineer", "de": "Senior Full-Stack Engineer" },
+   "unlock": { "en": "Design systems & mentoring", "de": "Design-Systeme & Mentoring" },
+   "bullets": {
+    "en": ["Lead the design system: 60 accessible React components used by 5 teams", "Mentor 3 junior engineers", "Run the frontend guild and its monthly demos"],
+    "de": ["Leitung des Design-Systems: 60 barrierefreie React-Komponenten für 5 Teams", "Mentoring für 3 Junior-Engineers", "Leitung der Frontend-Gilde und ihrer monatlichen Demos"]
+   },
+   "metrics": { "en": ["60 components", "5 teams", "3 mentees"], "de": ["60 Komponenten", "5 Teams", "3 Mentees"] }
+  }
+ ],
+ "eras": {
+  "start": 2019, "end": 2027, "ticks": [2019, 2021, 2023, 2025],
+  "rows": [
+   { "label": "HTML / CSS / JS", "from": 2019, "to": 2026.8, "color": "a3" },
+   { "label": "React", "from": 2020, "to": 2026.8, "color": "a4" },
+   { "label": "Node.js & PostgreSQL", "from": 2022, "to": 2026.8, "color": "a2" },
+   { "label": "Next.js", "from": 2023, "to": 2026.8, "color": "a1" },
+   { "label": { "en": "Design systems", "de": "Design-Systeme" }, "from": 2025, "to": 2026.8, "color": "a1", "striped": true }
+  ]
+ },
+ "why": [
+  { "icon": "both", "color": "a1", "title": { "en": "Frontend and backend", "de": "Frontend und Backend" }, "text": { "en": "From pixel-perfect React components to the API and database behind them. One person who can carry a feature end to end.", "de": "Von pixelgenauen React-Komponenten bis zur API und Datenbank dahinter. Eine Person, die ein Feature komplett umsetzt." }, "proof": { "en": "Tiny Startup · Northwind", "de": "Tiny Startup · Northwind" } },
+  { "icon": "scale", "color": "a2", "title": { "en": "Proven at scale", "de": "Erprobt im großen Maßstab" }, "text": { "en": "Owned a checkout used by 400,000 people.", "de": "Verantwortlich für einen Checkout mit 400.000 Nutzer:innen." }, "proof": "Northwind Platform" },
+  { "icon": "impact", "color": "a3", "title": { "en": "Fast pages", "de": "Schnelle Seiten" }, "text": { "en": "Cut page load time by 45% with a Next.js migration.", "de": "Ladezeit durch eine Next.js-Migration um 45 % gesenkt." }, "proof": "2023 – 2025" },
+  { "icon": "design", "color": "a4", "title": { "en": "Design systems", "de": "Design-Systeme" }, "text": { "en": "Leads a 60-component, accessible React library used by 5 teams.", "de": "Leitet eine barrierefreie React-Bibliothek mit 60 Komponenten für 5 Teams." }, "proof": { "en": "2025 – today", "de": "2025 – heute" } },
+  { "icon": "team", "color": "a1", "title": { "en": "Grows people", "de": "Fördert Menschen" }, "text": { "en": "Mentors junior engineers and runs the frontend guild.", "de": "Mentoring für Junior-Engineers und Leitung der Frontend-Gilde." }, "proof": { "en": "3 mentees", "de": "3 Mentees" } },
+  { "icon": "ship", "color": "a2", "title": { "en": "Ships from zero", "de": "Liefert von null an" }, "text": { "en": "First engineer at a startup and took the product from idea to launch.", "de": "Erste Engineering-Einstellung im Startup und Produkt von der Idee bis zum Launch gebracht." }, "proof": "Tiny Startup GmbH" },
+  { "icon": "qa", "color": "a3", "title": { "en": "Quality built in", "de": "Qualität eingebaut" }, "text": { "en": "CI/CD, Docker and end-to-end tests with Playwright.", "de": "CI/CD, Docker und End-to-End-Tests mit Playwright." }, "proof": { "en": "since 2022", "de": "seit 2022" } }
+ ],
+ "character": {
+  "scene": "mountain-lake",
+  "intro": { "en": "Curious, patient and always sketching. My happy place is a quiet lake in the mountains.", "de": "Neugierig, geduldig und immer am Skizzieren. Mein Lieblingsort ist ein ruhiger Bergsee." },
+  "caption": { "en": "Happy place · mountain lake", "de": "Lieblingsort · Bergsee" },
+  "perks": [
+   { "icon": "talk", "color": "a2", "title": { "en": "Clear communicator", "de": "Klare Kommunikation" }, "text": { "en": "Explains trade-offs in plain words.", "de": "Erklärt Abwägungen in einfachen Worten." } },
+   { "icon": "coffee", "color": "a1", "title": { "en": "Coffee nerd", "de": "Kaffee-Nerd" }, "text": { "en": "Pour-over every morning.", "de": "Jeden Morgen Handfilter." } },
+   { "icon": "travel", "color": "a3", "title": { "en": "Hiker", "de": "Wandern" }, "text": { "en": "Weekends in the Alps.", "de": "Wochenenden in den Alpen." } },
+   { "icon": "music", "color": "a4", "title": { "en": "Plays guitar", "de": "Spielt Gitarre" }, "text": { "en": "Mostly badly, always happily.", "de": "Meistens schlecht, immer gern." } }
+  ]
+ },
+ "projects": {
+  "categories": {
+   "web": { "color": "a1", "label": { "en": "Web apps", "de": "Web-Apps" } },
+   "oss": { "color": "a3", "label": { "en": "Open source", "de": "Open Source" } }
+  },
+  "items": [
+   { "cat": "web", "tags": ["Next.js", "TypeScript", "PostgreSQL"], "title": "Trailbook", "text": { "en": "Example project: a hiking log with maps and offline mode.", "de": "Beispielprojekt: ein Wandertagebuch mit Karten und Offline-Modus." } },
+   { "cat": "web", "tags": ["React", "Node.js", "WebSockets"], "title": "Standup Bot", "text": { "en": "Example project: async standups for remote teams.", "de": "Beispielprojekt: asynchrone Standups für Remote-Teams." } },
+   { "cat": "oss", "tags": ["React", "TypeScript", "Storybook"], "title": "a11y-kit", "text": { "en": "Example project: accessible React primitives.", "de": "Beispielprojekt: barrierefreie React-Bausteine." } },
+   { "cat": "oss", "tags": ["Node.js", "TypeScript", "CLI"], "title": "envcheck", "text": { "en": "Example project: a CLI that validates .env files.", "de": "Beispielprojekt: eine CLI, die .env-Dateien prüft." } }
+  ]
+ },
+ "skills": [
+  { "group": "Frontend", "items": ["React", "Next.js", "TypeScript", "CSS", "Accessibility", "Storybook"] },
+  { "group": "Backend", "items": ["Node.js", "Express", "PostgreSQL", "REST", "WebSockets"] },
+  { "group": "DevOps", "items": ["Docker", "GitHub Actions", "AWS", "Playwright"] }
+ ],
+ "education": [
+  { "when": "2015 – 2019", "degree": { "en": "B.Sc. Computer Science", "de": "B.Sc. Informatik" }, "school": "Example University" }
+ ],
+ "languages": [
+  { "name": { "en": "English", "de": "Englisch" }, "level": { "en": "Fluent", "de": "Fließend" }, "pct": 95 },
+  { "name": { "en": "German", "de": "Deutsch" }, "level": { "en": "Native", "de": "Muttersprache" }, "pct": 100 }
+ ],
+ "certificates": ["Example Cloud Practitioner"],
+ "contact": { "email": "sam@example.com", "links": [ { "label": "Get the skill", "url": "https://github.com/dooa-ansari/animated-resume-claude-skill" } ] },
+ "footer": { "en": "Sam Carter is a fictional example · made with the animated-resume Claude skill", "de": "Sam Carter ist ein fiktives Beispiel · erstellt mit dem animated-resume Claude Skill" }
+}
