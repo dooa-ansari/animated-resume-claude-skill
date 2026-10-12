@@ -27,7 +27,22 @@ When you ask Claude something like *"Make me an animated resume from my CV"*, th
 
 ## Install
 
-**Claude Code**
+**Claude Code (plugin, recommended)**
+
+```
+/plugin marketplace add dooa-ansari/animated-resume-claude-skill
+/plugin install animated-resume@animated-resume
+```
+
+On Claude Code 2.1.275 or later you can do it in one step:
+
+```
+/plugin install animated-resume --marketplace dooa-ansari/animated-resume-claude-skill
+```
+
+Updates arrive through `/plugin`, so you never copy folders again.
+
+**Claude Code (manual copy)**
 
 ```bash
 git clone https://github.com/dooa-ansari/animated-resume-claude-skill
@@ -53,6 +68,7 @@ Put `index.html` in a repo, then go to Settings → Pages → Deploy from a bran
 ## Structure
 
 ```
+.claude-plugin/                # marketplace.json + plugin.json (Claude Code plugin install)
 skills/animated-resume/
 ├── SKILL.md                    # instructions Claude follows (interview → profile.json → build)
 ├── assets/template.html        # the animated page

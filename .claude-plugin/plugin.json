@@ -1,0 +1,13 @@
+{
+  "name": "animated-resume",
+  "version": "1.0.0",
+  "description": "Turn a resume or LinkedIn PDF into an animated, interactive one-page portfolio: avatar, career levels, projects graph, 5 themes.",
+  "author": {
+    "name": "Dooa Ansari",
+    "url": "https://github.com/dooa-ansari"
+  },
+  "homepage": "https://github.com/dooa-ansari/animated-resume-claude-skill",
+  "repository": "https://github.com/dooa-ansari/animated-resume-claude-skill",
+  "license": "MIT",
+  "keywords": ["resume", "cv", "portfolio", "animated", "interactive", "github-pages"]
+}
