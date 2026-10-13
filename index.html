@@ -662,7 +662,7 @@ function render(){
  // edu + langs
  $("#eduList").innerHTML=(P.education||[]).map(e=>`<div class="row"><span class="when">${esc(tx(e.when))}</span><b>${esc(tx(e.degree))}</b><small>${esc(tx(e.school))}</small></div>`).join("");
  $("#langList").innerHTML=(P.languages||[]).map(g=>`<div class="lg"><div><b>${esc(tx(g.name))}</b><span class="when">${esc(tx(g.level))}</span></div><div class="meter"><i style="width:${g.pct??50}%"></i></div></div>`).join("");
- renderQuests();renderPerks();lightUp();
+ renderQuests();renderPerks();lightUp();reserveRole();
  if(booted)wireMotion();
 }
 
@@ -742,6 +742,12 @@ render();
 
 // ---------- motion ----------
 const RM=matchMedia("(prefers-reduced-motion: reduce)").matches;
+function ROLE_WORDS(){return tx(P.rotating)||[]}
+function reserveRole(){const role=document.querySelector(".role"),el=document.querySelector("#typer");if(!role||!el)return;
+ const list=(typeof ROLE_WORDS==="function"?ROLE_WORDS():[])||[];const cur=el.textContent;role.style.minHeight="";let h=role.offsetHeight;
+ list.forEach(w=>{el.textContent=w;h=Math.max(h,role.offsetHeight)});el.textContent=cur;role.style.minHeight=h+"px"}
+addEventListener("resize",reserveRole);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(reserveRole);
+
 (()=>{if(RM)return;const el=$("#typer");let w=0,c=(tx(P.rotating)[0]||"").length,del=true,hold=26;el.dataset.live=1;
  setInterval(()=>{const list=tx(P.rotating)||[];if(!list.length)return;
   if(hold>0){hold--;return}
