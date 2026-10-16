@@ -4,6 +4,12 @@ A Claude skill that turns your resume or LinkedIn PDF into an **animated, intera
 
 **Live example:** [`index.html`](index.html) shows *Sam Carter*, a fictional person, built from [`example-profile.json`](skills/animated-resume/assets/example-profile.json).
 
+## Demo
+
+[![Animated resume demo: a career shown as game levels with an animated avatar](docs/demo.gif)](docs/demo.mp4)
+
+A 40-second walkthrough of a generated page for a fictional profile. Click the preview to open the full-quality video ([`docs/demo.mp4`](docs/demo.mp4)).
+
 ## What you get
 
 - **Animated avatar** that blinks, types, waves and shows speech bubbles. Choose from 5 hairstyles, any skin, hair and outfit colors, and optional glasses, beard or earrings.
